@@ -22,11 +22,17 @@ Python web crawler with Selenium
 
 #### Now one should be able to run
 
-Main function is now inside the wiki_crawler folder titles "MAIN"
+Main function is now inside the wiki_crawler folder titles "MAIN_crawler"
 Now, you can open the main file and press run all but *warning*
 It will run for 15 hours scraping the web for all the mushrooms in our list
 
 
+#### other files inside wiki_crawler
+- there should exist:
+-   tsv
+-   pkl
+-   catalog.pkl which holds the original list that is not our own
+-   
 ### Structures
 - mushroom objects with characteristic traits
 - small functions to find specific parts when given a specific websitee
