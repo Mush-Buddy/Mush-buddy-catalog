@@ -35,6 +35,11 @@ It will run for 15 hours scraping the web for all the mushrooms in our list
 -   
 ### Structures
 - mushroom objects with characteristic traits
-- small functions to find specific parts when given a specific websitee
+- small functions to find specific parts when given a specific website
 - one main function that scrapes one page and searches for all the parts in the page
 - and an overall function that goes through the list and calls the sub functions for each page
+-   this function makes a dictionary and returns it with a list of failed mushrooms
+
+- Other functions
+-   conversion the dictionary to tsv
+-   conversion tsv to pkl
